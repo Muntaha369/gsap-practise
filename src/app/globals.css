@@ -1,5 +1,15 @@
 @import "tailwindcss";
 
+/* Add this to your global CSS file */
+.sunshine {
+  background:white;      /* Tailwind amber-400 */
+  color: #222;
+  /* box-shadow: 0 4px 24px 0 #fbbf24aa; */
+  /* transform: scale(1.05); */
+  transition: all 0.3s;
+}
+ 
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
