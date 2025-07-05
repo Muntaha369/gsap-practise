@@ -2,6 +2,7 @@ import React from 'react'
 import NavBar from './components/nav'
 import Pin from './components/pin'
 import ScrollX from './components/ScrollX'
+import SVGstring from './components/SVGstring'
 
 const page = () => {
   return (
@@ -12,6 +13,8 @@ const page = () => {
       {/* <Pin/> */}
       {/* 3.Pin X axis scroll */}
       {/* <ScrollX /> */}
+      {/* 4.SVG String animation */}
+      {/* <SVGstring/> */}
     </div>
   )
 }
