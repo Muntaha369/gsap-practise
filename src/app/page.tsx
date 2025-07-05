@@ -3,6 +3,7 @@ import NavBar from './components/nav'
 import Pin from './components/pin'
 import ScrollX from './components/ScrollX'
 import SVGstring from './components/SVGstring'
+import MouseFollow from './components/MouseFollow'
 
 const page = () => {
   return (
@@ -15,6 +16,9 @@ const page = () => {
       {/* <ScrollX /> */}
       {/* 4.SVG String animation */}
       {/* <SVGstring/> */}
+      {/* 5. Mouse follow up animation */}
+      {/* <MouseFollow/> */}
+
     </div>
   )
 }
