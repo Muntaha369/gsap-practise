@@ -4,6 +4,7 @@ import Pin from './components/pin'
 import ScrollX from './components/ScrollX'
 import SVGstring from './components/SVGstring'
 import MouseFollow from './components/MouseFollow'
+import Hamburger from './components/Hamburger'
 
 const page = () => {
   return (
@@ -18,7 +19,8 @@ const page = () => {
       {/* <SVGstring/> */}
       {/* 5. Mouse follow up animation */}
       {/* <MouseFollow/> */}
-
+      {/* 6. Hamburger animation */}
+      <Hamburger/>
     </div>
   )
 }
