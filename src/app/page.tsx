@@ -5,6 +5,7 @@ import ScrollX from './components/ScrollX'
 import SVGstring from './components/SVGstring'
 import MouseFollow from './components/MouseFollow'
 import Hamburger from './components/Hamburger'
+import CharText from './components/CharText'
 
 const page = () => {
   return (
@@ -21,6 +22,8 @@ const page = () => {
       {/* <MouseFollow/> */}
       {/* 6. Hamburger animation */}
       {/* <Hamburger/> */}
+      {/* 7. One by One Char animation*/}
+      {/* <CharText/> */}
     </div>
   )
 }
