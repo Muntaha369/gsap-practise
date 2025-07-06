@@ -6,17 +6,18 @@ import SVGstring from './components/SVGstring'
 import MouseFollow from './components/MouseFollow'
 import Hamburger from './components/Hamburger'
 import CharText from './components/CharText'
+import LineText from './components/LineText'
 
 const page = () => {
   return (
     <div>
-      {/* 1.NavBar class change animation using toggleClass (scrollTrigger) */}
+      {/* 1. NavBar class change animation using toggleClass (scrollTrigger) */}
       {/* <NavBar/>  */}
-      {/* 2.Pin makes particular DOM sticky interval relative start & end (scrollTrigger) */}
+      {/* 2. Pin makes particular DOM sticky interval relative start & end (scrollTrigger) */}
       {/* <Pin/> */}
-      {/* 3.Pin X axis scroll */}
+      {/* 3. Pin X axis scroll */}
       {/* <ScrollX /> */}
-      {/* 4.SVG String animation */}
+      {/* 4. SVG String animation */}
       {/* <SVGstring/> */}
       {/* 5. Mouse follow up animation */}
       {/* <MouseFollow/> */}
@@ -24,6 +25,8 @@ const page = () => {
       {/* <Hamburger/> */}
       {/* 7. One by One Char animation*/}
       {/* <CharText/> */}
+      {/* 8. Text line animation */}
+      {/* <LineText/> */}
     </div>
   )
 }
