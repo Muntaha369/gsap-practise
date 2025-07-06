@@ -20,7 +20,7 @@ const page = () => {
       {/* 5. Mouse follow up animation */}
       {/* <MouseFollow/> */}
       {/* 6. Hamburger animation */}
-      <Hamburger/>
+      {/* <Hamburger/> */}
     </div>
   )
 }
