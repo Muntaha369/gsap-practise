@@ -32,7 +32,7 @@ const page = () => {
       {/* 9. Simultaneous animation check the component file to understand more */}
       {/* <SimulCards/> */}
       {/* 10. Simultaneous animation using framer-motion/motion */}
-      <FrameSimulCards/>
+      {/* <FrameSimulCards/> */}
     </div>
   )
 }
