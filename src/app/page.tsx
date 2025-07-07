@@ -7,6 +7,7 @@ import MouseFollow from './components/MouseFollow'
 import Hamburger from './components/Hamburger'
 import CharText from './components/CharText'
 import LineText from './components/LineText'
+import SimulCards from './components/SimulCards'
 
 const page = () => {
   return (
@@ -27,6 +28,8 @@ const page = () => {
       {/* <CharText/> */}
       {/* 8. Text line animation */}
       {/* <LineText/> */}
+      {/* 9. Simultaneous animation check the component file to understand more */}
+      {/* <SimulCards/> */}
     </div>
   )
 }
