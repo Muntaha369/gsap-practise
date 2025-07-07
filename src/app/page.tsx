@@ -8,6 +8,7 @@ import Hamburger from './components/Hamburger'
 import CharText from './components/CharText'
 import LineText from './components/LineText'
 import SimulCards from './components/SimulCards'
+import FrameSimulCards from './components/FrameSimulCards'
 
 const page = () => {
   return (
@@ -30,6 +31,8 @@ const page = () => {
       {/* <LineText/> */}
       {/* 9. Simultaneous animation check the component file to understand more */}
       {/* <SimulCards/> */}
+      {/* 10. Simultaneous animation using framer-motion/motion */}
+      <FrameSimulCards/>
     </div>
   )
 }
