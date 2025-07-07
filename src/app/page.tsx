@@ -14,7 +14,7 @@ const page = () => {
   return (
     <div>
       {/* 1. NavBar class change animation using toggleClass (scrollTrigger) */}
-      {/* <NavBar/>  */}
+      <NavBar/> 
       {/* 2. Pin makes particular DOM sticky interval relative start & end (scrollTrigger) */}
       {/* <Pin/> */}
       {/* 3. Pin X axis scroll */}
